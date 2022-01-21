@@ -1,4 +1,4 @@
-package Lambda.Calculator;
+package lambda.сalculator;
 
 import java.util.function.*;
 
