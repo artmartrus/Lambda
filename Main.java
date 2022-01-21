@@ -9,7 +9,7 @@ public class Main {
             Calculator calc = Calculator.instance.get();
 
             int a = calc.plus.apply(1, 2);
-            int b = calc.minus.apply(2, 1); // В придложенном варианте реализации кода переменная b равнялась нулю
+            int b = calc.minus.apply(2, 1); // В предложенном варианте реализации кода переменная b равнялась нулю
             int c = calc.divided.apply(a, b);    // поменял значеня для метода minus, ввел блок try - cath для вывода ошибки
             int d = calc.abs.apply(1);
             calc.println.accept(c);
